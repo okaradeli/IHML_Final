@@ -1,0 +1,230 @@
+
+---------------------
+SETUP 1
+META-DES
+---------------------
+        DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        KNeighborsClassifier(),
+        GaussianNB()
+
+
+C:\Users\onurk\anaconda3\python.exe C:\Users\onurk\PycharmProjects\TEZ_projects\tez_stacked_gen_incremental_v1\other_des_ml_test.py
+Dataset:higgs Train+Validation Dataset Size:20000
+
+Mean CV Accuracy Score: 0.7913
+
+Mean CV Precision Score: 0.7265
+
+Mean CV Recall Score: 0.6095
+
+Mean CV F1 Score: 0.6629
+
+Mean CV ROC AUC Score: 0.7465
+
+Process finished with exit code 0
+---------------------
+SETUP 2
+---------------------
+
+    pool = [
+        #RandomForestClassifier(n_estimators=50, random_state=1),
+        DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        ##TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        KNeighborsClassifier(),
+        #GaussianNB()
+    ]
+
+
+
+C:\Users\onurk\anaconda3\python.exe C:\Users\onurk\PycharmProjects\TEZ_projects\tez_stacked_gen_incremental_v1\other_des_ml_test.py
+Dataset:higgs Train+Validation Dataset Size:20000
+
+Mean CV Accuracy Score: 0.7935
+
+Mean CV Precision Score: 0.7455
+
+Mean CV Recall Score: 0.5872
+
+Mean CV F1 Score: 0.6570
+
+Mean CV ROC AUC Score: 0.7427
+
+Process finished with exit code 0
+
+
+---------------------
+SETUP 3
+---------------------
+
+    pool = [
+        DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        ##TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        #KNeighborsClassifier(),
+        #GaussianNB()
+    ]
+
+
+
+Mean CV Accuracy Score: 0.8033
+
+Mean CV Precision Score: 0.7756
+
+Mean CV Recall Score: 0.5850
+
+Mean CV F1 Score: 0.6669
+
+Mean CV ROC AUC Score: 0.7495
+
+
+---------------------
+SETUP 4
+---------------------
+    pool = [
+        LGBMClassifier(verbose=-1, random_state=102),
+        RandomForestClassifier(),
+        XGBClassifier(),
+    ]
+
+Mean CV Accuracy Score: 0.8277
+
+Mean CV Precision Score: 0.7779
+
+Mean CV Recall Score: 0.6837
+
+Mean CV F1 Score: 0.7278
+
+Mean CV ROC AUC Score: 0.7923
+
+---------------------
+SETUP 5
+------------------
+        DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        KNeighborsClassifier(),
+        GaussianNB()
+
+Mean CV Accuracy Score: 0.7950
+
+Mean CV Precision Score: 0.7294
+
+Mean CV Recall Score: 0.6194
+
+Mean CV F1 Score: 0.6699
+
+Mean CV ROC AUC Score: 0.7516
+
+---------------------
+SETUP 6
+------------------
+
+        LGBMClassifier(verbose=-1, random_state=102),
+        RandomForestClassifier(),
+        XGBClassifier(),
+
+Mean CV Accuracy Score: 0.8360
+
+Mean CV Precision Score: 0.7978
+
+Mean CV Recall Score: 0.6854
+
+Mean CV F1 Score: 0.7373
+
+Mean CV ROC AUC Score: 0.7988
+
+Process finished with exit code 0
+
+---------------------
+SETUP 7
+KNORAE
+------------------
+C:\Users\onurk\anaconda3\python.exe C:\Users\onurk\PycharmProjects\TEZ_projects\tez_stacked_gen_incremental_v1\other_des_ml_test.py
+Dataset:higgs Train+Validation Dataset Size:30000
+
+        #DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        KNeighborsClassifier(),
+        GaussianNB()
+
+Mean CV Accuracy Score: 0.8380
+
+Mean CV Precision Score: 0.8125
+
+Mean CV Recall Score: 0.6730
+
+Mean CV F1 Score: 0.7362
+
+Mean CV ROC AUC Score: 0.7972
+
+Process finished with exit code 0
+
+---------------------
+SETUP 8
+KNORAE
+------------------
+C:\Users\onurk\anaconda3\python.exe C:\Users\onurk\PycharmProjects\TEZ_projects\tez_stacked_gen_incremental_v1\other_des_ml_test.py
+Dataset:higgs Train+Validation Dataset Size:30000
+
+        DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        KNeighborsClassifier(),
+        GaussianNB()
+
+
+Mean CV Accuracy Score: 0.8240
+
+Mean CV Precision Score: 0.8018
+
+Mean CV Recall Score: 0.6323
+
+Mean CV F1 Score: 0.7070
+
+Mean CV ROC AUC Score: 0.7766
+
+Process finished with exit code 0
+
+
+--------
+SETUP 9
+KNORAE
+----------
+        DecisionTreeClassifier(),
+        LGBMClassifier(verbose=-1, random_state=102),
+        TorchMLPClassifier.build_mlp_classifier(input_size=32, hidden_sizes=[64, 32], output_size=2, epochs=20),
+        RandomForestClassifier(),
+        XGBClassifier(),
+        KNeighborsClassifier(),
+        GaussianNB()
+        GaussianNB()
+
+
+Mean CV Accuracy Score: 0.8100
+
+Mean CV Precision Score: 0.7459
+
+Mean CV Recall Score: 0.6586
+
+Mean CV F1 Score: 0.6995
+
+Mean CV ROC AUC Score: 0.7726
+
+
+

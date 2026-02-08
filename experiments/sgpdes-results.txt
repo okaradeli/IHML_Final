@@ -1,0 +1,9 @@
+Higgs Boson data loading...
+Raw data len:250000
+Sampled  data len:300 column size:33
+Fold:1
+Dataset Fold 1: Accuracy SGPDES KNN = 0.733, F1 Score SGPDES KNN = 0.802, IR = 1.778
+Dataset Fold 1: Accuracy SGPDES RF = 0.727, F1 Score SGPDES RF = 0.792, IR = 1.778
+Dataset Fold 1: Accuracy SGPDES XGB = 0.707, F1 Score SGPDES XGB = 0.771, IR = 1.778
+Fold:1
+Dataset Fold 2: Accuracy SGPDES KNN = 0.667, F1 Score SGPDES KNN = 0.737, IR = 1.830
